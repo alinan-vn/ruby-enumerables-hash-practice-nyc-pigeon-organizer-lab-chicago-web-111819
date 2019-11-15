@@ -37,7 +37,7 @@ def nyc_pigeon_organizer(data)
     name.each do |bird_name|
       keys_good_data.each do |value_in|
         if bird_name === value_in
-          good_data[value_in][:color] << home
+          good_data[value_in][:lives] << home
         end
       end 
     end 
